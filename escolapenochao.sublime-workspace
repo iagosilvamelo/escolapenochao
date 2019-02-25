@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"ani",
+				"animeScroll"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"anim",
+				"animationClass"
+			],
+			[
+				"docume",
+				"documentTop"
+			],
+			[
+				"sc",
+				"scroll-anime-start"
+			],
+			[
+				"tran",
+				"translate3d()\ttransform"
+			],
+			[
+				"ma",
+				"margin-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"r",
+				"right\ttext-align"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"backgrou",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Apli",
+				"Application"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"blo",
+				"blogPosts"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"magin",
+				"margin-top\tproperty"
+			],
+			[
+				"fon",
+				"FONT-SIZE"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/contato.twig",
+			"settings":
+			{
+				"buffer_size": 4130,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/fix/footer.twig",
+			"settings":
+			{
+				"buffer_size": 3861,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = ‘2915d1851351e5ee549c20394736b442’ + ‘8bc59f460fa1548d1514676163dafc88’; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘http://packagecontrol.io/' + pf.replace(‘ ‘, ‘%20’)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by)",
+			"import urllib.request,os,hashlib; h = ‘2915d1851351e5ee549c20394736b442’ + ‘8bc59f460fa1548d1514676163dafc88’; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘http://packagecontrol.io/' + pf.replace(‘ ‘, ‘%20’)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by);",
+			"import urllib.request,os,hashlib; h = ‘2915d1851351e5ee549c20394736b442’ + ‘8bc59f460fa1548d1514676163dafc88’; pf = ‘Package Control.sublime-package’; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘http://packagecontrol.io/' + pf.replace(‘ ‘, ‘%20’)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/escolapenochao",
+		"/C/wamp64/www/escolapenochao/src",
+		"/C/wamp64/www/escolapenochao/src/Controller",
+		"/C/wamp64/www/escolapenochao/templates",
+		"/C/wamp64/www/escolapenochao/templates/fix"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/escolapenochao/templates/fix/base.twig",
+		"/C/wamp64/www/escolapenochao/templates/index.twig",
+		"/C/wamp64/www/escolapenochao/templates/fix/footer.twig",
+		"/C/wamp64/www/addviser/css/style.css",
+		"/C/wamp64/www/escolapenochao/templates/fix/page-header.twig",
+		"/C/wamp64/www/sgnutri/templates/contato.twig",
+		"/C/wamp64/www/escolapenochao/templates/fix/meta.twig",
+		"/C/wamp64/www/escolapenochao/config/routes.yaml",
+		"/C/wamp64/www/escolapenochao/src/Controller/RouterController.php",
+		"/C/wamp64/www/escolapenochao/templates/fix/navbar.twig",
+		"/C/wamp64/www/escolapenochao/src/Controller/LuckyController.php",
+		"/C/wamp64/www/escolapenochao/templates/fix/carolsel.twig",
+		"/C/wamp64/www/escolapenochao/public/index.php",
+		"/C/wamp64/www/escolapenochao/templates/Lucky/number.html.twig",
+		"/C/wamp64/www/escolapenochao/config/routes.php",
+		"/C/wamp64/www/.htaccess",
+		"/C/wamp64/www/index.php",
+		"/C/wamp64/www/config.php",
+		"/C/Users/Vendas - Info/Desktop/143180827850562-procCTe.xml",
+		"/C/wamp64/www2/sgnutri/contato.php",
+		"/C/wamp64/www/templates/contato.twig",
+		"/C/wamp64/www/templates/fix/footer.twig",
+		"/C/wamp64/www/templates/fix/navbar.twig",
+		"/E/sgnutri/contato.php",
+		"/E/sgnutri/forrageiras.php",
+		"/E/sgnutri/brotos.php",
+		"/E/sgnutri/aempresa.php",
+		"/C/wamp64/www2/addviser/.htaccess",
+		"/C/wamp64/www/iago/config.php",
+		"/C/wamp64/www/iago/index.php",
+		"/C/Users/Vendas - Info/Desktop/resumo",
+		"/C/wamp64/www/sgnutri/composer.json",
+		"/C/Users/Vendas - Info/Desktop/ass.html",
+		"/C/Users/Vendas - Info/AppData/Roaming/Microsoft/Assinaturas/Iago.htm",
+		"/E/Iago/video.sh",
+		"/C/wamp64/www/villadiravenna/dao/log.class.php",
+		"/C/wamp64/www/villadiravenna/dao/db.php",
+		"/P/Sites/sgnutric/public_html/templates/fix/meta.twig",
+		"/P/Sites/sgnutric/public_html/templates/fix/carolsel.twig",
+		"/P/ADM Vendas/Outlook/ass-iago.html",
+		"/C/Users/Vendas - Info/Desktop/mocelo.html",
+		"/P/Sites/sgnutric/public_html/templates/fix/navbar.twig",
+		"/P/Sites/sgnutric/public_html/templates/fix/base.twig",
+		"/P/Sites/sgnutric/public_html/templates/index.twig",
+		"/P/Sites/sgnutric/public_html/index.php",
+		"/P/Sites/sgnutric/public_html/css/style.css",
+		"/C/Users/Vendas - Info/Downloads/index.php",
+		"/C/Users/Vendas - Info/Downloads/download (1)",
+		"/P/Sites/sgnutric/public_html/templates/aempresa.twig",
+		"/P/Sites/sgnutric/public_html/templates/contato.twig",
+		"/P/Sites/sgnutric/public_html/templates/fix/footer.twig",
+		"/P/Sites/sgnutric/public_html/.htaccess",
+		"/C/wamp64/www/pipocade/_admin/htaccess",
+		"/C/wamp64/www/pipocade/include-facebook.php",
+		"/C/wamp64/www/pipocade/.htaccess",
+		"/C/wamp64/www/pipocade/include-metatags.php",
+		"/C/wamp64/www/pipocade/index.php",
+		"/C/wamp64/www/sgnutri/css/style.css",
+		"/C/wamp64/www/sgnutri/templates/fix/navbar.twig"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Nutrientes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/contato.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4130,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								1203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/fix/footer.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2425,
+								2425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "escolapenochao.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

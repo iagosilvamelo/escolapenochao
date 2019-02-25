@@ -1,18 +1,7 @@
 {% extends 'fix/base.twig' %}
 
 {% block head %}
-<style>
-	.jumbotron{background-color: rgba(255,255,255,0.1);}
-	.jumbotron:hover{transition: color 0.2s linear 0s, background 0.2s linear 0s; background-color: rgba(255,255,255,0.8);}
-
-	#top-fone{text-align: right;}
-	#top-fone img{width: 35px; height: 35px; margin-right: 10px}
-
-	.quadro{text-align: center}
-	.quadro:hover{transition: color 0.2s linear 0s, background 0.2s linear 0s; background-color: rgba(255,255,255,0.8); border-radius: 15%;}
-	.quadro img{width: 100%;}
-
-</style>
+<link rel="stylesheet" href="{{ asset ('css/index.css') }}">
 {% endblock %}
 
 {% block container %}
@@ -24,19 +13,19 @@
 		<div class="row topo">
 			<div class="col-md-4">
 				<p>
-					<img src="https://www.sgnutri.com.br/img/img/icons/fb.png" class="social-item">
-					<img src="https://www.sgnutri.com.br/img/img/icons/tt.png" class="social-item">
-					<img src="https://www.sgnutri.com.br/img/img/icons/in.png" class="social-item">
-					<img src="https://www.sgnutri.com.br/img/img/icons/wa.png" class="social-item">
+					<img src="{{ asset ('img/icons/fb.png') }}" class="social-item">
+					<img src="{{ asset ('img/icons/tt.png') }}" class="social-item">
+					<img src="{{ asset ('img/icons/in.png') }}" class="social-item">
+					<img src="{{ asset ('img/icons/wa.png') }}" class="social-item">
 				</p>
 			</div>
 
 			<div class="col-md-4">
-				<p><img src="https://www.sgnutri.com.br/img/img/logo.png" class="mx-auto d-block" id="img-topo"></p>
+				<p><img src="{{ asset ('/img/logo.png') }}" class="mx-auto d-block" id="img-topo"></p>
 			</div>
 
 			<div class="col-md-4" id="top-fone">
-				<p><img src="https://www.sgnutri.com.br/img/img/icons/fn.png"><a href="tel:+555134070260">(51) 3407-0260</a></p>
+				<p><img src="{{ asset ('img/icons/fn.png') }}"><a href="tel:+555134070260">(51) 3407-0260</a></p>
 			</div>
 		</div>
 	</div>

@@ -174,14 +174,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/escolapenochao",
-		"/C/wamp64/www/escolapenochao/src",
-		"/C/wamp64/www/escolapenochao/src/Controller",
-		"/C/wamp64/www/escolapenochao/templates",
-		"/C/wamp64/www/escolapenochao/templates/fix"
+		"/C/wamp64/www/escolapenochao"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/escolapenochao/.git/HEAD",
+		"/C/wamp64/www/escolapenochao/.git/index",
+		"/C/wamp64/www/escolapenochao/.git/COMMIT_EDITMSG",
+		"/C/wamp64/www/escolapenochao/.git/config",
 		"/C/wamp64/www/escolapenochao/templates/fix/base.twig",
 		"/C/wamp64/www/escolapenochao/templates/index.twig",
 		"/C/wamp64/www/escolapenochao/templates/fix/footer.twig",

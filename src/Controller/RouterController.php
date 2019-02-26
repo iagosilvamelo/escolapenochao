@@ -9,16 +9,30 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class RouterController extends AbstractController{
 
 	/**
-     * @Route("/")
+     * @Route("/Inicio")
      */
 	public function index(){
 		$dados = array(
 			'title' => 'Escola Pé no Chão', 
 			'description' => 'Escola de educação infantil',
-			'link' => 'https://www.escolapenochao.com.br'
+			'link' => 'https://www.escolapenochao.com.br/Inicio'
 		);
 
         return $this->render('index.twig', $dados);
+    }
+
+    /**
+     * @Route("/A-Escola-Pe-no-Chao")
+     */
+    public function aescola(){
+
+        $dados = array(
+            'title' => 'A Escola Pé no Chão', 
+            'description' => 'Escola de educação infantil',
+            'link' => 'https://www.escolapenochao.com.br/A-Escola-Pe-no-Chao'
+        );
+
+        return $this->render('aescola.twig', $dados);
     }
 
 	/**

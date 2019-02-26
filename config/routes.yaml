@@ -1,7 +1,10 @@
 index:
-    path: /
+    path: /Inicio
     controller: App\Controller\RouterController::index
 
+A-Escola-Pe-no-Chao:
+    path: /A-Escola-Pe-no-Chao
+    controller: App\Controller\RouterController::aescola
 
 Contato-Escola-Pe-no-Chao:
     path: /Contato-Escola-Pe-no-Chao

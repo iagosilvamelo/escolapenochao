@@ -5,7 +5,7 @@
 */
 
 body{
-	background-image: url("https://www.sgnutri.com.br/img/img/bg.jpg");
+	background-image: url("{{ asset ('public/img/bg.jpg') }}");
 	background-size: auto;
 	background-attachment: fixed;
 }
@@ -68,7 +68,7 @@ animation: fadeIn 1s ease-in-out;
 ----------------------------------------------
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
-footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif;}
 footer a, .ifsm a { color:#FFFFFF;  font-size:12px;}
 footer a:hover, ifsm a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#66D900;}
 .footerleft { margin-top:50px; padding:0 36px; }

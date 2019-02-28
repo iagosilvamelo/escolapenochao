@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"digi",
+				"digit"
+			],
+			[
 				"tex",
 				"text-decoration\tproperty"
 			],
@@ -115,24 +123,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "templates/contato.twig",
-			"settings":
-			{
-				"buffer_size": 4130,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/fix/footer.twig",
-			"settings":
-			{
-				"buffer_size": 3861,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -145,6 +135,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: in",
 				"Package Control: Install Package"
@@ -174,30 +172,53 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp64/www/escolapenochao"
 	],
 	"file_history":
 	[
+		"/C/wamp64/www/escolapenochao/templates/fix/base.twig",
+		"/C/wamp64/www/escolapenochao/templates/fix/meta.twig",
+		"/C/wamp64/www/escolapenochao/public/js/app.js",
+		"/C/wamp64/www/escolapenochao/public/css/app.css",
+		"/C/wamp64/www/escolapenochao/public/css/index.css",
+		"/C/wamp64/www/escolapenochao/templates/fix/page-header.twig",
+		"/C/wamp64/www/escolapenochao/templates/index.twig",
+		"/C/wamp64/www/escolapenochao/templates/svg/prato.twig",
+		"/C/Users/Vendas - Info/Desktop/prato.svg",
+		"/C/wamp64/www/escolapenochao/templates/aescola.twig",
+		"/C/Users/Vendas - Info/Desktop/download.svg",
+		"/C/Users/Vendas - Info/Desktop/.htaccess",
+		"/C/wamp64/www/escolapenochao/src/Controller/RouterController.php",
+		"/C/wamp64/www/escolapenochao/.htaccess",
+		"/C/wamp64/logs/apache_error.log",
+		"/C/wamp64/www/escolapenochao/config/routes.yaml",
+		"/C/wamp64/www/escolapenochao/templates/fix/navbar.twig",
+		"/C/wamp64/www/escolapenochao/templates/fix/google.twig",
+		"/C/wamp64/www/escolapenochao/templates/fix/footer.twig",
+		"/C/wamp64/www/escolapenochao/templates/fix/carolsel.twig",
+		"/C/wamp64/www/escolapenochao/index.php",
+		"/C/wamp64/logs/access.log",
+		"/C/wamp64/bin/apache/apache2.4.35/conf/extra/httpd-vhosts.conf",
+		"/C/wamp64/wampmanager.conf",
+		"/C/wamp64/www/.htaccess",
+		"/C/wamp64/www/public/.htaccess",
+		"/C/wamp64/www/templates/index.twig",
+		"/C/wamp64/bin/apache/apache2.4.35/conf/original/httpd.conf",
+		"/C/wamp64/www/.gitignore",
+		"/C/Users/Vendas - Info/Desktop/,htacces",
+		"/C/wamp64/www/escolapenochao-producao/public/.htacces",
+		"/C/wamp64/www/escolapenochao-producao/.gitignore",
+		"/C/wamp64/www/escolapenochao/templates/contato.twig",
+		"/C/wamp64/www/escolapenochao/templates/aempresa.twig",
 		"/C/wamp64/www/escolapenochao/.git/HEAD",
 		"/C/wamp64/www/escolapenochao/.git/index",
 		"/C/wamp64/www/escolapenochao/.git/COMMIT_EDITMSG",
 		"/C/wamp64/www/escolapenochao/.git/config",
-		"/C/wamp64/www/escolapenochao/templates/fix/base.twig",
-		"/C/wamp64/www/escolapenochao/templates/index.twig",
-		"/C/wamp64/www/escolapenochao/templates/fix/footer.twig",
 		"/C/wamp64/www/addviser/css/style.css",
-		"/C/wamp64/www/escolapenochao/templates/fix/page-header.twig",
 		"/C/wamp64/www/sgnutri/templates/contato.twig",
-		"/C/wamp64/www/escolapenochao/templates/fix/meta.twig",
-		"/C/wamp64/www/escolapenochao/config/routes.yaml",
-		"/C/wamp64/www/escolapenochao/src/Controller/RouterController.php",
-		"/C/wamp64/www/escolapenochao/templates/fix/navbar.twig",
 		"/C/wamp64/www/escolapenochao/src/Controller/LuckyController.php",
-		"/C/wamp64/www/escolapenochao/templates/fix/carolsel.twig",
 		"/C/wamp64/www/escolapenochao/public/index.php",
 		"/C/wamp64/www/escolapenochao/templates/Lucky/number.html.twig",
 		"/C/wamp64/www/escolapenochao/config/routes.php",
-		"/C/wamp64/www/.htaccess",
 		"/C/wamp64/www/index.php",
 		"/C/wamp64/www/config.php",
 		"/C/Users/Vendas - Info/Desktop/143180827850562-procCTe.xml",
@@ -248,7 +269,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 158.0,
 		"where_history":
 		[
 		]
@@ -258,7 +279,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"Nutrientes"
+			":8000"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -267,83 +288,23 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
-		"show_context": true,
-		"use_buffer2": true,
+		"reverse": true,
+		"show_context": false,
+		"use_buffer2": false,
 		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "templates/contato.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4130,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								936,
-								1203
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 228.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/fix/footer.twig",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2425,
-								2425
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 70.0
 	},
 	"input":
 	{

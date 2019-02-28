@@ -24,30 +24,6 @@
 			{% include 'fix/footer.twig' %}
 		</section>
 
-		<script type="text/javascript">
-			var $target = $('.scroll-anime'),
-				animationClass = 'scroll-anime-start',
-				offset = $(window).height() * 3/4;
-
-			function animeScroll(){
-				var documentTop = $(document).scrollTop();
-
-				$target.each(function(){
-					var itemTop = $(this).offset().top;
-
-					if (documentTop > itemTop - offset){
-						$(this).addClass(animationClass);
-					} else {
-						$(this).removeClass(animationClass);
-					}
-				});
-			}
-
-			animeScroll();
-
-			$(document).scroll(function(){
-				animeScroll();
-			});
-		</script>
+		<script type="text/javascript" src="{{ asset ('public/js/app.js') }}"></script>
 	</body>
 </html>

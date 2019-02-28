@@ -5,7 +5,7 @@
 */
 
 body{
-	background-image: url("{{ asset ('public/img/bg.jpg') }}");
+	background-image: url("https://www.sgnutri.com.br/img/img/bg.jpg");
 	background-size: auto;
 	background-attachment: fixed;
 }
@@ -61,6 +61,19 @@ animation: fadeIn 1s ease-in-out;
 }
 
 
+/*		 Efeito Máquina de Escrever 		*/
+.digitar::after{
+	content: '|';
+	margin-left: 5px;
+	animation: piscar .7s infinite;
+}
+
+@keyframes piscar{
+	50%{
+		opacity: 0;
+	}
+}
+
 
 /*
 ----------------------------------------------
@@ -95,4 +108,4 @@ footer a:hover, ifsm a:hover {transition: color 0.2s linear 0s, background 0.2s 
 .post p { font-size:12px; color:#FFFFFF; line-height:20px;}
 .post p span { display:block; color:#8f8f8f;}
 
-.ifsm{float: right; line-height: 40px}
+.ifsm{float: right; line-height: 40px;}

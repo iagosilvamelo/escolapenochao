@@ -14,7 +14,8 @@ body{
 .topo #img-topo{margin-top: 50px}
 .topo h1{margin-top: 90px}
 
-.page .container{background-color: rgba(230,255,255,0.9); border-radius: 15px;}
+.page .container, .page .container-fluid{background-color: rgba(230,255,255,0.9);}
+.page .container {border-radius: 15px}
 .page .container a{ transition: color 0.2s linear 0s, background 0.2s linear 0s; color: #555555;}
 .page .container a:hover{ transition: color 0.2s linear 0s, background 0.2s linear 0s; color: #0078A8; text-decoration: none;}
 .page h3{margin-top: 20px}
@@ -63,7 +64,7 @@ animation: fadeIn 1s ease-in-out;
 
 /*		 Efeito Máquina de Escrever 		*/
 .digitar::after{
-	content: '|';
+	content: '_';
 	margin-left: 5px;
 	animation: piscar .7s infinite;
 }
